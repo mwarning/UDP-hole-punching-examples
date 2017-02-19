@@ -170,7 +170,7 @@ int addr_parse( IP *addr, const char *addr_str, const char *port_str, int af ) {
 	struct addrinfo *p = NULL;
 
 	memset( &hints, '\0', sizeof(struct addrinfo) );
-	hints.ai_socktype = SOCK_STREAM;
+	hints.ai_socktype = SOCK_DGRAM;
 	hints.ai_family = af;
 
 	if( getaddrinfo( addr_str, port_str, &hints, &info ) != 0 ) {
