@@ -1,3 +1,4 @@
+# UDP Hole Punching Examples
 
 A small collection of example programs to show how UDP hole punching
 can be done. Hole punching is a mechanism to access computers in
@@ -15,3 +16,9 @@ The examples have not been successfully tested and are probably broken!
 Pull requests are welcome. :-)
 
 Public Domain / CC0
+
+## Links
+
+A small link list explaining the concepts:
+
+- [How NAT Traversal works](https://tailscale.com/blog/how-nat-traversal-works/)
